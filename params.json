@@ -1,0 +1,1 @@
+{"name":"Pig","tagline":"pig","body":"--- layout: default --- {% assign index = true %} {% for post in paginator.posts %} {% assign content = post.content %}\r\n{% include article.html %}\r\n{% endfor %} {% include pagination.html %}","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
